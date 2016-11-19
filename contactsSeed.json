@@ -1,0 +1,34 @@
+{
+	"contacts":{
+		"contact0":{
+			"firstname": "Bin",
+			"lastname": "Li",
+			"mobile":"123456789",
+			"homePhone":"123456897",
+			"email":"a@b.com",
+			"isFavorite":true,
+			"group":"A",
+			"uid":"Aabd"
+		},
+		"contact1":{
+			"firstname": "Deede",
+			"lastname": "Wang",
+			"mobile":"123456978",
+			"homePhone":"312456789",
+			"email":"d@c.com",
+			"isFavorite":true,
+			"group":"A",
+			"uid":"Aabd"
+		},
+		"contact2":{
+			"firstname": "Buffy",
+			"lastname": "Wang",
+			"mobile":"123456978",
+			"homePhone":"312456789",
+			"email":"d@c.com",
+			"isFavorite":true,
+			"group":"A",
+			"uid":"Aabd"
+		}
+	}
+}
