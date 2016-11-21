@@ -2,6 +2,6 @@
 
 console.log("inside app.js");
 
-var app = angular.module("ContactsApp", []);
+var app = angular.module("ContactsApp", ["ngRoute"]);
 
 
