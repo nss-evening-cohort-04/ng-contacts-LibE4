@@ -1,0 +1,15 @@
+<form>
+    <div calss="form-group">
+        <label>First Name:</label>
+        <input type="text" class="form-control" placeholder="Type here" ng-model="newContact.firstname">
+        <label>Last Name:</label>
+        <input type="text" class="form-control" placeholder="Type here" ng-model="newContact.lastname">
+        <label>Mobile:</label>
+        <input type="text" class="form-control" placeholder="Type here" ng-model="newContact.mobile">
+        <label>Home Phone:</label>
+        <input type="text" class="form-control" placeholder="Type here" ng-model="newContact.homePhone">
+        <label>Email:</label>
+        <input type="email" class="form-control" placeholder="Type here" ng-model="newContact.email">
+    </div>
+    <button type="button" class="btn btn-primary btn-lg col-xs-2 " ng-click="addNewContact()">Add Contact</button>
+</form>

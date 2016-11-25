@@ -1,0 +1,52 @@
+{
+	"contacts":{
+		"contact0":{
+			"firstname": "Bin",
+			"lastname": "Li",
+			"mobile":"123456789",
+			"homePhone":"123456897",
+			"email":"a@b.com",
+			"isGrouped":true,
+			"group":{
+				"A": true
+			},
+			"uid":"9eM7EDJvtPcNaBSy0bQvtTntKq82"
+		},
+		"contact1":{
+			"firstname": "Deede",
+			"lastname": "Wang",
+			"mobile":"123456978",
+			"homePhone":"312456789",
+			"email":"d@c.com",
+			"isGrouped":true,
+			"group":{
+				"A": true
+			},
+			"uid":"9eM7EDJvtPcNaBSy0bQvtTntKq82"
+		},
+		"contact2":{
+			"firstname": "Buffy",
+			"lastname": "Wang",
+			"mobile":"123456978",
+			"homePhone":"312456789",
+			"email":"d@c.com",
+			"isGrouped":true,
+			"group":{
+				"A": true
+			},
+			"uid":"9eM7EDJvtPcNaBSy0bQvtTntKq82"
+		}
+	},
+	"users":{
+		"user0":{
+			"uid": "9eM7EDJvtPcNaBSy0bQvtTntKq82"
+		}
+	},
+	"groups":{
+		"group0":{
+			"name":"A",
+			"uid":"9eM7EDJvtPcNaBSy0bQvtTntKq82"
+		}
+
+	}
+}
