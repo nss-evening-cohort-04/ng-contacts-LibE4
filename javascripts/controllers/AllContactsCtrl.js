@@ -9,10 +9,6 @@ app.controller("AllContactsCtrl", function($scope, $rootScope, ContactFactory){
 		});
 	};
 	getContacts();
-
-	// ContactFactory.getContactList().then(function(fbContacts){
-	// 	$scope.contacts = fbContacts;
-	// })
 	
 	$scope.deleteContact = function(itemId){
 		ContactFactory.deleteContact(itemId).then(function(){

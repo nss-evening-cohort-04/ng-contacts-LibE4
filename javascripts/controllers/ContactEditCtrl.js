@@ -9,7 +9,6 @@ app.controller("ContactEditCtrl", function($scope, $routeParams, $location, Cont
 		$scope.newContact = oneContact;
 	});
 	$scope.addNewContact = function(){
-		console.log("addNewContact", $scope.newContact);
 		ContactFactory.editContact($scope.newContact).then(function(response){
 			$scope.newContact = {};
 			$location.url("/contacts/all");			
